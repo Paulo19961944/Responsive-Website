@@ -3,11 +3,11 @@ const menuContainer = document.querySelector('.menu-container');
 const navbarNavigation = document.querySelector('.navbar-navigation');
 
 menuIcon.addEventListener('click', () => {
-    // Modifica o menu-container
+    // Modifica o Display
     menuContainer.style.display = 'flex';
     menuContainer.style.flexDirection = 'column';
 
-    // Modifica o navbar-navigation
+    // Alinha os Itens ao Centro
     navbarNavigation.style.justifyContent = 'center';
     navbarNavigation.style.alignItems = 'center';
 
