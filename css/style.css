@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Lora', serif;
+    font-family: var(--font-lora);
     background-color: var(--bg-color-white);
     width: 100%;
     min-height: 100vh;
@@ -16,13 +16,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #20acac;
-    color: #fafafa;
+    background-color: var(--bg-color-header);
+    color: var(--color-soft-white);
     padding: 2rem;
 }
 
 h1{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--font-ubuntu);
 }
 
 header h1{
@@ -32,7 +32,7 @@ header h1{
 #menu-icon{
     display: none;
     font-size: 0.8rem;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .navbar-navigation{
@@ -53,13 +53,13 @@ nav button{
 nav button a{
     padding: 0.8rem;
     text-decoration: none;
-    color: #fafafa;
+    color: var(--color-soft-white);
     font-size: 1rem;
 }
 
 nav button a:hover{
     background-color: var(--bg-color-white);
-    color: #000;
+    color: var(--color-black);
 }
 
 section, footer {
@@ -84,7 +84,7 @@ main p{
 
 footer{
     background-color: var(--bg-color-black);
-    color: #fafafa;
+    color: var(--color-soft-white);
     font-weight: 500;
     padding: 2rem;
 }

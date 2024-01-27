@@ -1,4 +1,10 @@
 :root{
     --bg-color-white: #fafafa;
     --bg-color-black: #000;
+    --bg-color-header: #20acac;
+    --color-white: #fff;
+    --color-soft-white: #fafafa;
+    --color-black: #000;
+    --font-ubuntu: 'Ubuntu', sans-serif;
+    --font-lora: 'Lora', serif;
 }
