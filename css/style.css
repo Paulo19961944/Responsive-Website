@@ -29,7 +29,13 @@ header h1{
     margin-bottom: 1.2rem;
 }
 
-nav{
+#menu-icon{
+    display: none;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.navbar-navigation{
     background-color: var(--bg-color-black);
     padding: 1.5rem;
     display: flex;
