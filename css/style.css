@@ -62,23 +62,23 @@ nav button a:hover{
     color: var(--color-black);
 }
 
-section, footer {
+main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-main{
+section{
     width: 70%;
     padding: 4rem;
 }
 
-main h1{
+section h1{
     margin-bottom: 1.2rem;
 }
 
-main p{
+section p{
     margin-bottom: 1rem;
 }
 
